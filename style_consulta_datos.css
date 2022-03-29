@@ -1,0 +1,108 @@
+body {
+    background:#EAEDED ;
+  }
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: right;
+	flex-direction: column;
+}
+
+.container form {
+	width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box {
+	width: 750px;
+}
+.container table {
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.link-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.container .boton_insertar{
+    width: 11%;
+    background: #5d6472;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    color: white;
+    position:right ;
+    margin: 15px 0;
+    font-size: 16px;
+  }
+
+  .boton_insertar:hover {
+      background-color:#7c7f85 ;
+  }
+
+.container .buscar {
+    width: 11%;
+  }
+
+.container .boton_buscar{
+  width: 9%;
+  background: #5d6472;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  color: white;
+  position:left ;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+
+.container .boton_editar{
+    width: 80%;
+    background: #5d6472;
+    border: none;
+    border-radius: 4px;
+    padding: 6.5px;
+    color: white;
+    margin: 1px 0;
+    font-size: 16px;
+  }
+
+  .boton_editar:hover {
+      background-color:#7c7f85 ;
+  }
+
+.container .boton_eliminar{
+    width: 87%;
+    background: #c53a3a;
+    border: none;
+    border-radius: 4px;
+    padding: 6.5px;
+    color: white;
+    margin: 1px 0;
+    font-size: 16px;
+  }
+
+  .boton_eliminar:hover {
+      background-color:#c03a3a ;
+  }
+
+.container .boton_guardar{
+  width: 75%;
+  background: #5d6472;
+  border: none;
+  border-radius: 4px;
+  padding: 6.5px;
+  color: white;
+  margin: 1px 0;
+  font-size: 16px;
+}
+
+  .boton_guardar:hover {
+    background-color:#7c7f85 ;
+  }

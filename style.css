@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background:#EAEDED ;
+  }
+  
+  label {
+    display: inline-block;
+    width: 82px;
+    text-align: right;
+}
+  
+  .form-register {
+    width: 470px;
+    background: #26262e;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .controls {
+    width: 324px;
+    background: #26262e;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #56698f;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .boton_form {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-register .boton_enviar{
+    width: 40%;
+    background: #5d6472;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    margin: 10px 25px;
+    font-size: 16px;
+  }
+
+  .form-register .boton_borrar{
+    width: 40%;
+    background: #5d6472;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    margin: 10px 25px;
+    font-size: 16px;
+  }
+
+  .form-register .boton_consultar{
+    width: 100%;
+    background: #5d6472;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    margin: 15px 0;
+    font-size: 16px;
+  }
+
+  .boton_enviar:hover {
+      background-color:#7c7f85 ;
+  }
+
+  .boton_borrar:hover {
+    background-color:#7c7f85 ;
+  }
+
+  .boton_consultar:hover {
+    background-color:#7c7f85 ;
+  }
